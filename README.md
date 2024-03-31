@@ -1,4 +1,4 @@
-## Boolean Retrieval Model 🔍 🧐
+## Assignment 1: Boolean Retrieval Model 🔍🧐
 
 #### Required Libraries 
   1. Streamlit
@@ -21,13 +21,17 @@
 
 ### Interface
 
-<img src="./BRM_main.png">
+<img src="./Images/BRM_main.png">
 
 ### Inverted Index Boolean Query Processing
 
-<img src="./BRM_InvertedIndex.png">
+<img src="./Images//BRM_InvertedIndex.png">
 
 ### Positional Index Proximity Query Processing
 
-<img src="./BRM_PositionalIndex.png">
+<img src="./Images//BRM_PositionalIndex.png">
 
+
+## Assignment 2: Vector Space Model 🔍🧐
+
+### Coming Soon 😉 

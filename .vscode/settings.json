@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./Boolean Retrieval Model",
+        "./Vector Space Model"
+    ]
+}
