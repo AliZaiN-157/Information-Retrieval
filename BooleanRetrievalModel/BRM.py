@@ -16,7 +16,7 @@ ps = PorterStemmer()
 
 
 def load_stopwords():
-    with open('Stopword-List.txt', 'r') as f:
+    with open('./BooleanRetrievalModel/Stopword-List.txt', 'r') as f:
         for line in f:
             # if line is space, skip
             if not line.strip():

@@ -1,13 +1,14 @@
 import streamlit as st
-import BRM
+import BooleanRetrievalModel.BRM as BRM
+import VectorSpaceModel.VSM as VSM
 import time
 
 
 def main():
-    st.set_page_config(page_title="Boolean Retrieval Model",
+    st.set_page_config(page_title="Information Retrieval System",
                        page_icon="🔍", layout="centered")
-    st.title("Boolean Retrieval Model 🔍 🧐")
-    st.subheader("Ali Zain K21-4653 :computer:")
+    st.title("Boolean Retrieval Model 🔍🧐")
+    st.subheader("Ali Zain K21-4653 💻")
     query = st.text_input("Enter Query")
     search_button = st.button("Search 🔍")
     results = st.empty()
