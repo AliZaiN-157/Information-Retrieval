@@ -14,7 +14,7 @@
 
 #### Execute the project
 - Open the Terminal / Command Prompt
-- Type <code> streamlit run GUI.py </code> on Terminal
+- Type <code> streamlit run 1_🏠_Home.py </code> on Terminal
 - Search http://localhost:8501/ on browser
   
 <hr>

@@ -6,11 +6,11 @@ import time
 
 def main():
     st.set_page_config(page_title="Information Retrieval System",
-                       page_icon="🔍", layout="centered")
+                       page_icon="🔍", layout="centered",)
     st.title("Information Retrieval System")
     st.subheader("Ali Zain K21-4653 💻")
 
-    st.sidebar.empty()
+    # st.sidebar.empty()
 
 
 if __name__ == '__main__':
