@@ -106,9 +106,9 @@ def find_postings(term):
 
 def write_to_file():
     corpus, doc_ids = load_corpuses()
-    with open('Final_Dictionary.txt', 'w') as f:
+    with open('./BooleanRetrievalModel/Final_Dictionary.txt', 'w') as f:
         f.write(json.dumps(corpus))
-    with open('DocID.txt', 'w') as f:
+    with open('./BooleanRetrievalModel/DocID.txt', 'w') as f:
         f.write(json.dumps(doc_ids))
     print("Dictionary saved to file")
 
@@ -116,19 +116,19 @@ def write_to_file():
 
 
 def load_dictionary():
-    with open('Final_Dictionary.txt', 'r') as f:
+    with open('./BooleanRetrievalModel/Final_Dictionary.txt', 'r') as f:
         return json.loads(f.read())
 
 # load doc ids from file
 
 
 def load_doc_ids():
-    with open('DocID.txt', 'r') as f:
+    with open('./BooleanRetrievalModel/DocID.txt', 'r') as f:
         return json.loads(f.read())
 
 
 # if Final_Dictionary.txt exists, load it
-if os.path.exists('Final_Dictionary.txt') and os.path.exists('DocID.txt'):
+if os.path.exists('./BooleanRetrievalModel/Final_Dictionary.txt') and os.path.exists('./BooleanRetrievalModel/DocID.txt'):
     print("Loading dictionary from file")
     corpus = load_dictionary()
     doc_ids = load_doc_ids()
