@@ -1,4 +1,8 @@
 import streamlit as st
+from PIL import Image
+
+BRM_image = Image.open("images/BRM.jpeg")
+VSM_image = Image.open("images/vsm.png")
 
 
 def main():
@@ -49,14 +53,14 @@ def main():
 
     with col1:
         container = st.container(border=False)
-        container.image("images/BRM.jpeg", use_column_width=True,
+        container.image(BRM_image, use_column_width=True,
                         caption="Boolean Retrieval Model")
         container.page_link("pages/2_🔍_Boolean Retrieval Model.py",
                             label="Boolean Retrieval Model", icon="🔍",  use_container_width=True)
 
     with col2:
         container = st.container(border=False)
-        container.image("images/vsm.png",  use_column_width=True,
+        container.image(VSM_image,  use_column_width=True,
                         caption="Vector Space Model")
         container.page_link("pages/3_🚀_Vector Space Model.py",
                             label="Vector Space Model", icon="🚀",  use_container_width=True)
