@@ -1,8 +1,4 @@
 import streamlit as st
-from PIL import Image
-
-BRM_image = Image.open("images/BRM.jpeg")
-VSM_image = Image.open("images/vsm.png")
 
 
 def main():
