@@ -34,4 +34,4 @@
 
 ## Assignment 2: Vector Space Model 🔍🧐
 
-### Coming Soon 😉 
+### HEHEHEHE 😉 
