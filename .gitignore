@@ -1,3 +1,2 @@
 .venv
-\VectorSpaceModel\VSM.ipynb
-\VectorSpaceModel\test.ipynb
+*.ipynb
