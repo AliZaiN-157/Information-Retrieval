@@ -53,14 +53,14 @@ def main():
 
     with col1:
         container = st.container(border=False)
-        container.image(BRM_image, use_column_width=True,
+        container.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgUerZz0ejXvb10l-TQ_ByskwUqcLzfTbcRg&usqp=CAU", use_column_width=True,
                         caption="Boolean Retrieval Model")
         container.page_link("pages/2_🔍_Boolean Retrieval Model.py",
                             label="Boolean Retrieval Model", icon="🔍",  use_container_width=True)
 
     with col2:
         container = st.container(border=False)
-        container.image(VSM_image,  use_column_width=True,
+        container.image("https://blog.christianperone.com/wp-content/uploads/2013/09/vector_space.png",  use_column_width=True,
                         caption="Vector Space Model")
         container.page_link("pages/3_🚀_Vector Space Model.py",
                             label="Vector Space Model", icon="🚀",  use_container_width=True)
