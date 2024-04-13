@@ -3,7 +3,7 @@ import VectorSpaceModel.VSM as VSM
 import time
 
 
-st.title("Vector Space Model 🔍🧐")
+st.title("Vector Space Model 🚀📡 ")
 st.write(
     "This is a simple Vector Space Model which allows you to search for documents in the Cranfield collection.")
 query = st.text_input("Enter Query")
