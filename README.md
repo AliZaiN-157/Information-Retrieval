@@ -32,7 +32,7 @@
 <img src="./Images//BRM_PositionalIndex.png">
 
 
-## Assignment 2: Vector Space Model 🔍🧐
+## Assignment 2: Vector Space Model 🚀📡
 
 ### HEHEHEHE 😉 
 

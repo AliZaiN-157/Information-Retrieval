@@ -133,6 +133,9 @@ def create_vector():
     vector = {}
     for col in float_cols:
         vector[col] = new_df[col].values
+    # if df in vector, remove it
+    if 'df' in vector:
+        vector.pop('df')
     vector.pop('idf')
     query_vector = vector.pop('query')
     new_df = new_df.drop('query', axis=1)
