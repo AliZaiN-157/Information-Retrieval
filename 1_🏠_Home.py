@@ -38,33 +38,21 @@ def main():
 
     container = st.container(border=False)
     with container:
-        st.write("This project is a simple implementation of Information Retrieval System using Boolean Retrieval Model and Vector Space Model.")
+        st.write(
+            "This project is a simple implementation of Information Retrieval System using different models.")
         st.write(
             "The dataset used in this project is a collection of research papers from the field of Computer Science.")
         st.write("The project is divided into two parts:")
-        st.write("1. Boolean Retrieval Model")
-        st.write("2. Vector Space Model")
-
-    col1, col2, col3 = st.columns(3)
-
-    with col1:
-        container = st.container(border=False)
-        container.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgUerZz0ejXvb10l-TQ_ByskwUqcLzfTbcRg&usqp=CAU", use_column_width=True,
-                        caption="Boolean Retrieval Model")
         container.page_link("pages/2_🔍_Boolean Retrieval Model.py",
-                            label="Boolean Retrieval Model", icon="🔍",  use_container_width=True)
-
-    with col2:
-        container = st.container(border=False)
-        container.image("https://blog.christianperone.com/wp-content/uploads/2013/09/vector_space.png",  use_column_width=True,
-                        caption="Vector Space Model")
+                            label="Boolean Retrieval Model", icon="🔍", use_container_width=True)
         container.page_link("pages/3_🚀_Vector Space Model.py",
                             label="Vector Space Model", icon="🚀",  use_container_width=True)
-
-    with col3:
-        container = st.container(border=False)
-        container.markdown("## Coming Soon 😉 ")
+        container.page_link("pages/4_🔬_K Nearest Neighbor.py",
+                            label="K Nearest Neighbor Model", icon="🔬",  use_container_width=True)
+        container.page_link("pages/5_🧩_K Mean Clustering.py",
+                            label="K Mean Clustering", icon="🧩",  use_container_width=True)
 
 
 if __name__ == '__main__':
+
     main()

@@ -1,6 +1,8 @@
 {
     "python.analysis.extraPaths": [
         "./Boolean Retrieval Model",
-        "./Vector Space Model"
+        "./Vector Space Model",
+        "./KNearestNeighbor",
+        "./KMeanClustering",
     ]
 }

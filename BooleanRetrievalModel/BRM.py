@@ -6,7 +6,7 @@ from nltk.tokenize import word_tokenize
 from nltk.stem import PorterStemmer
 from collections import Counter
 
-nltk.download('punkt')
+# nltk.download('punkt')
 
 dictionary = {}
 stopwords = []
@@ -72,8 +72,8 @@ def preprocessing(corpus):
 def load_corpuses():
     lines_with_doc_id = {}
     corpus = {}
-    for filename in os.listdir('ResearchPapers'):
-        with open('ResearchPapers/' + filename, 'r') as f:
+    for filename in os.listdir('./Resources/ResearchPapers'):
+        with open('./Resources/ResearchPapers/' + filename, 'r') as f:
             lines = f.read().replace("\n", " ")
             # remove .txt from filename
             filename = filename[:-4]
